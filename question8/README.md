@@ -9,7 +9,7 @@
 3.```findtrendingword()``` Essentially this needs to calculate the max number of occurences for both today and yesterday, and compare the two for the same word and the highest difference in todays occurences compared to yesterdays'. Code comments provide more detailed info.
 
 ## 2. `Build/Compile/Run`
-(Depending on your enviromental path variables)To build/compile this solution, with python installed, simply navigate to question8/ directory and run...
+(Depending on your enviromental path variables)To build/compile this solution, with python3 installed, simply navigate to question8/ directory and run...
 
     $  python question8.py
 
