@@ -1,7 +1,7 @@
 # Solution
 
 ## 1. `Overview`
->This problem took me some time. After reviewing the graphic provided, I initially thought that I would need to take the amount of data points in the file, square root it, and then use that value to create an actual grid full of all the data points. However I realized this was not necessary and developed the solution provided.
+>I had some initial confusion regarding what 'date' meant in the context of this question. The question asks for a function to find the most frequent word in the last 24 hours. But since the question states that only a date is written to the database file, the last 24 hours would be from today's date, meaning yesterday's date. If the question had said that a 'timestamp' or 'datetime' was written instead of a 'date'. Asking for the most frequent word in the last 24 hours would be more accurate. But this is not what was asked.
 
 1. The json file is opened and passed to each function
 2. ```findmostfrequentword()``` Iterates through the json object for each item in 'words' array. It returns the max number of occurenced words
