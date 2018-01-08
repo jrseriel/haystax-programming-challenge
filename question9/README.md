@@ -10,7 +10,7 @@
 5. Finally it calls the ```countwords()``` function which gets the content of an online word dictionary to do list comprehension on to calculate each tweet's word count(This takes a few seconds to complete for each tweet.)
 
 ## 2. `Build/Compile/Run`
-As this is an .html file, any web browser will be able to display [question9.html](../question9/) and [question10.html](../question10/)
+As this is an .html file, any web browser will be able to display [question9.html](../question9/question9.html) and [question10.html](../question10/question10.html)
 
 Enter any twitter handle you like, and it will retreive the last 5 tweets, the date and time they were tweeted, and the english dictionary word count.
 
