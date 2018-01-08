@@ -1,20 +1,15 @@
 # Solution
 
 ## 1. `Overview`
->The Twitter API V1.1 requires Oauth, which would require backend code to be run from a server served to a fully qualified domain name. Neither of these things were provided to me and would otherwise cost me money. So instead, I decided to fulfill the desired functionality by means of writing a javascript web-scraper. This does use a proxy CORS url, so it is not intended for commercial use.
-
-1. After entering a twitter handle, the app, calls "whateverorigin" + the twitter url we want(Whateverorigin.com is a CORS bypass service).
-2. Regex through the source code for the tweet contents
-3. Regex through the source code for the date contents
-4. Then it returns the html skeleton we need to the webpage with ```.html```
-5. Finally it calls the ```countwords()``` function which gets the content of an online word dictionary to do list comprehension on to calculate each tweet's word count(This takes a few seconds to complete for each tweet.)
+1. Enter the email, validation will fail if nothing is entered, or not in the correct format
+2. Enter the password, validation will fail only if nothing is entered
+3. Enter the phone number, validation will fail if nothing is entered or if non-numbers, andor not 10 digits are entered,
+4. After all validation is successful, it will load the registered page, stating that registration was successful and thanking the email address(As per the prompt, a name was not to be inputted).
 
 ## 2. `Build/Compile/Run`
 As this is an .html file, any web browser will be able to display [question9.html](../question9/question9.html) and [question10.html](../question10/question10.html)
 
-Enter any twitter handle you like, and it will retreive the last 5 tweets, the date and time they were tweeted, and the english dictionary word count.
+This is very self explanatory.
 
 ## 3. `Output`
-Different twitter handles may be entered. The results will be printed in 5 divs with the tweet number(in royalblue), the date and time below(in black), and the word count(in grey, to the right). 
-
-It may take a few seconds for the word count to load on each tweet as it is looking through almost 500k words.
+If the validation is successful on submit, it will load [registered.html[(../question9/registered.html)
