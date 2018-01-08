@@ -24,7 +24,11 @@
 <body>
 	<center>
 		<h1>Thank you!</h1>
-		<p>Your account has been successfully registered.</p>
+		<p id="user"></p>
 	</center>
+
+	<script>
+		document.getElementById('user').append(localStorage.getItem("storageName")+" has been successfully registered.");
+	</script>
 </body>
 </html>
