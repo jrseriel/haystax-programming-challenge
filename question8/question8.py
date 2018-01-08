@@ -19,7 +19,7 @@ def findmostfrequentword(parsed):
 	return mostfrequentword
 
 #Find most frequent word in last 24 hours(Since only a date is writted this is yesterday)
-def findmostfrequentwordtoday(parsed):
+def findmostfrequentwordyesterday(parsed):
 	today = (date.today())
 	yesterday = (date.today()-timedelta(1))
 	fwlist = []
@@ -73,5 +73,5 @@ def findtrendingword(parsed):
 
 #Call functions
 print ("The most frequent word found in the documents is: "+findmostfrequentword(parsed));
-print ("The most frequent word found in the documents with yesterday's date is: "+findmostfrequentwordtoday(parsed));
+print ("The most frequent word found in the documents with yesterday's date is: "+findmostfrequentwordyesterday(parsed));
 print ("The trending word is: "+findtrendingword(parsed));
