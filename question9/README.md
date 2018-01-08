@@ -12,4 +12,4 @@ As this is an .html file, any web browser will be able to display [question9.htm
 This is very self explanatory.
 
 ## 3. `Output`
-If the validation is successful on submit, it will load [registered.html[(../question9/registered.html)
+If the validation is successful on submit, it will load [registered.html](../question9/registered.html)
